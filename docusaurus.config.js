@@ -5,19 +5,19 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'OER Course Title',
-  tagline: 'OER Tag/Keyword',
+  title: 'OPS435 - Open System Automation (Python)',
+  tagline: 'OPS435',
   url: 'https://Seneca-ICTOER.github.io/',
-  baseUrl: '/OERTemplate/',
+  baseUrl: '/OPS435/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Seneca-ICTOER',
-  projectName: 'OERTemplate',
+  projectName: 'OPS435',
   themeConfig: {
     navbar: {
-      title: 'OER Course Title',
+      title: 'OPS435 - Open System Automation (Python)',
       logo: {
         alt: 'Seneca College',
         src: 'img/logo.svg',
@@ -31,7 +31,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'OER Course Title',
+          title: 'OPS435 - Open System Automation (Python)',
           items: [
             {
               label: 'Contents',
@@ -57,7 +57,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/Seneca-ICTOER/OERTemplate/tree/main',
+          editUrl: 'https://github.com/Seneca-ICTOER/OPS435/tree/main',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
