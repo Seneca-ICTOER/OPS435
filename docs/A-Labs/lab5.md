@@ -128,7 +128,7 @@ print(method2)
 
 **Create a Python Script Demonstrating Reading Files**
 
-  1. Create the ~/ops435/lab5/lab5a.py script.
+  1. Create the **~/ops435/lab5/lab5a.py** script.
   2. Use the following as a template:
 
 ```python
