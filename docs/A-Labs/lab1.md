@@ -266,7 +266,7 @@ help>
 >>>
 ```
 
-We are interested in the **object** named **\_\_builtins\_\_** at this moment. We can ask the Python interpreter to tell us more about the **\_\_builtins\_\_** object by passing its name **\_\_builtins\_\_** as the function argument to the **dir()** function:
+- We are interested in the **object** named **\_\_builtins\_\_** at this moment. We can ask the Python interpreter to tell us more about the **\_\_builtins\_\_** object by passing its name **\_\_builtins\_\_** as the function argument to the **dir()** function:
 
 ```bash
 >>> dir(__builtins__)
@@ -342,7 +342,7 @@ python3 ./lab1a.py
 print('hello world')
 ```
 
-   - This time we should now see that the python function "print()" has sent something to the screen - the words 'hello world'. In Python a word or a bunch of characters like 'hello world' is called a 'string'. In the above example, a **string** was passed as an **argument** to the **print** function. These words are important for understanding and talking about different aspects of code.
+   - This time we should now see that the python function "print()" has sent something to the screen - the words 'hello world'. In Python a word or a bunch of characters like 'hello world' is called a 'string'. In the above example, a **string** was passed as an **argument** to the **print function**. These words are important for understanding and talking about different aspects of code.
 
 4. Note that there are similarities between the Python print() function and the Bash echo command, but Python is more picky than bash (which is a good thing). Try to run print without the brackets or without the quotes to see what happens.
 
