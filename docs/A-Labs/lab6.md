@@ -99,7 +99,7 @@ class Student:
 ```
 
    2. This is how you give the class a name, now when you need to create a new Student object we know the class is called Student. **Everything** indented underneath the **class Student**: will be a part of the class's definition.
-   3. Next indented under the class is the \_\_init\_\_() method. This works similarly to a function, it contains code indented underneath it, that code is executed when you call the function. But \_\_init\_\_() is a special method, instead of manually calling this method, it will automatically be executed when we create a object. Inside the __init__() we create values(object attributes), these are created using **self.name**, where **name** is the name of the attribute. The **self.** portion before the value name is to let the class know that this value can be accessed from anywhere inside the class and outside of the class, as a public attribute. Lets come back to this later.
+   3. Next indented under the class is the \_\_init\_\_() method. This works similarly to a function, it contains code indented underneath it, that code is executed when you call the function. But \_\_init\_\_() is a special method, instead of manually calling this method, it will automatically be executed when we create a object. Inside the \_\_init\_\_() we create values(object attributes), these are created using **self.name**, where **name** is the name of the attribute. The **self.** portion before the value name is to let the class know that this value can be accessed from anywhere inside the class and outside of the class, as a public attribute. Lets come back to this later.
 
 ```python
 def __init__(self, name, number):
@@ -365,7 +365,7 @@ Name the output of `./CheckLab6.py -f -v` as **lab6\_\[seneca\_id\].txt**
    2. What is the difference between a object and a class?
    3. What does the dir() function tell you about objects?
    4. What happens if you try and make a copy of an object?
-   5. When does the __init__() method get executed?
+   5. When does the \_\_init\_\_() method get executed?
    6. What is an attribute? How do you create an attribute?
    7. What is a method?
    8. What is the difference between a method and a function?
