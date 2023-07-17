@@ -223,7 +223,7 @@ def __init__(self, name, number):
 student3 = Student('Jen', '034686901')
 ```
 
-**Create a Python Script Demonstrating Classes**
+#### Create a Python Script Demonstrating Classes
 
    1. The following python script is broken. It has two major problems to fix and one new feature to add:
 
