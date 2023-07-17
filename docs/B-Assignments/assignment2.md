@@ -74,7 +74,7 @@ When performing some operations with datetime objects, we may see timedelta obje
 You can do useful things with timedelta objects:
 
 - `delta1 + delta2` will add up two durations. For example, if delta1 is two hours and delta2 is three hours, then this operation will return five hours.
-- `str(delta1)` will represent the timedelta in a friendly format: H\:MM\:SS if the duration is less than 24 hours.
+- `str(delta1)` will represent the timedelta in a friendly format: H:MM:SS if the duration is less than 24 hours.
 
 More interesting methods are in the [table](https://docs.python.org/3/library/datetime.html#datetime.datetime.fold) in the docs.
 
