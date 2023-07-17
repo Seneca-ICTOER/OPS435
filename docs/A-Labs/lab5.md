@@ -126,7 +126,7 @@ f.close()
 print(method2)
 ```
 
-**Create a Python Script Demonstrating Reading Files**
+#### Create a Python Script Demonstrating Reading Files
 
   1. Create the **~/ops435/lab5/lab5a.py** script.
   2. Use the following as a template:
@@ -322,7 +322,7 @@ f.close()
 cat file3.txt
 ```
 
-**Create a Python Script Demonstrating Writing to Files**
+#### Create a Python Script Demonstrating Writing to Files
 
   1. Copy **~/ops435/lab5/lab5a.py** script to **~/ops435/lab5/lab5b.py** script (We need the previous read functions that you created).
   2. Add the following functions below the two functions that you already created:
@@ -559,7 +559,7 @@ except:
    - When catching multiple exceptions, make certain to catch the lowest ones contained in the exception-hierarchy first. For example, if you put 'Exception' first, both 'OSError' and 'FileNotFoundError', would never get caught.
    - **TIP**: In python it's usually best to 'try:' and 'except:' code rather than to attempt to anticipate everything that could go wrong with **if** statements. For example, instead of checking to see if a file exists and we have read permissions, it can be better to just try and read the file and fail and catch any errors with 'OSError'.
 
-**Create a Python Script Which Handles Errors**
+#### Create a Python Script Which Handles Errors
 
   1. Create the **~/ops435/lab5/lab5c.py** script.
   2. Use the following as a template:
