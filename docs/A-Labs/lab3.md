@@ -207,7 +207,7 @@ if __name__ == '__main__':
     print(str(number))
 ```
 
-   - Running your program you should have seen three lines being displayed: the text "python code", a greeting, and a result of a math calculation. The if statement in the code above is a special if statement needed to make sure that your "main" code only runs when your script is executed by the Python interpreter directly, and will be ignored when your python file is being imported by other script, or by an interactive python shell. More on that later.
+   - Running your program you should have seen three lines being displayed: the text "python code", a greeting, and a result of a math calculation. The **if** statement in the code above is a special **if** statement needed to make sure that your "main" code only runs when your script is executed by the Python interpreter directly, and will be ignored when your python file is being imported by other script, or by an interactive python shell. More on that later.
 
 **Importing Functions From other Python Scripts**
 
@@ -265,7 +265,7 @@ Functions can receive **arguments** - data to be used for processing. In this se
   1. Create a new Python file for testing.
   2. When passing arguments to functions, you put data such as **strings**, **numbers**, or **other object names** within brackets immediately following the function name.
 
-   - NOTE: If a function accepts arguments, then those arguments must be declared (using argument names) when the function is declared. Those declared names are then used within the function for processing. Also, when you call a function with arguments, the number of arguments passed up to the function must match the number of arguments that were specified in the function declaration.
+   - **NOTE**: If a function accepts arguments, then those arguments must be declared (using argument names) when the function is declared. Those declared names are then used within the function for processing. Also, when you call a function with arguments, the number of arguments passed up to the function must match the number of arguments that were specified in the function declaration.
 
   3. Define a function called **square()**:
 
@@ -304,7 +304,7 @@ print(square('2'))
 
   5. The last function call should produce an **error message**. This is caused by sending a **string** instead of a number that is processed by the function. We could use the int() function to convert any value passed in as a string by mistake to an integer number.
 
-  6. Declare the function sum_numbers():
+  6. Declare the function **sum\_numbers()**:
 
 ```python
 def sum_numbers(number1, number2):
@@ -318,7 +318,7 @@ sum_numbers(5, 10)
 sum_numbers(50, 100)
 ```
 
-  8. You can also do what looks like calling a function within another function, but it's actually just calling sum_numbers() first, then calling square() with the return from sum_numbers as an argument:
+  8. You can also do what looks like calling a function within another function, but it's actually just calling sum\_numbers() first, then calling square() with the return from sum\_numbers as an argument:
 
 ```python
 square(sum_numbers(5, 5))
@@ -936,8 +936,10 @@ if __name__ == '__main__':
    - **Additional Requirements**
 
         - The missing list should have the values: **1, 2, 3, 4, 5**
-        - The program should have a function called **add\_item\_to\_list(ordered\_list)** This function takes a single argument which is a list name itself. It will then look at the value of the last existing item in the list, it will then append a new value that is one unit bigger (i.e. **+1** and modifying that same list without returning any value).
-        - The script should have a function called **remove\_items\_from\_list(ordered\_list, items\_to\_remove)** This function takes two arguments: a list, and a list of numbers to remove from the list. This function will then check if those items exist within that list, and if they exist, then they will be removed. This function will modify the list without returning any value.
+        - The program should have a function called **add\_item\_to\_list(ordered\_list)**
+            - This function takes a single argument which is a list name itself. It will then look at the value of the last existing item in the list, it will then append a new value that is one unit bigger (i.e. **+1** and modifying that same list without returning any value).
+        - The script should have a function called **remove\_items\_from\_list(ordered\_list, items\_to\_remove)**
+            - This function takes two arguments: a list, and a list of numbers to remove from the list. This function will then check if those items exist within that list, and if they exist, then they will be removed. This function will modify the list without returning any value.
 
    - **Sample Run 1:**
 
