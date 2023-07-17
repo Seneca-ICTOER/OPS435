@@ -256,7 +256,7 @@ print(lab4a.diff_sets(set1,set2))
 ```bash
 cd ~/ops435/lab4/
 pwd #confirm that you are in the right directory
-ls CheckLab4.py || wget wget https://ict.senecacollege.ca/~eric.brauer/ops435/labs/LabCheckScripts/CheckLab4.py
+ls CheckLab4.py || wget https://ict.senecacollege.ca/~eric.brauer/ops435/labs/LabCheckScripts/CheckLab4.py
 python3 ./CheckLab4.py -f -v lab4a
 ```
 
