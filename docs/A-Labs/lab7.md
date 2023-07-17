@@ -36,10 +36,6 @@ As you try to design the classes, you will quickly realise that there is a poten
 
 ## Investigation 1: Objects and Functions
 
-**NOTE**
-
-If your professor is asking you to submit labs on GitHub, first follow their instructions on Blackboard to clone the lab7 repository.
-
 ### Part 1 - Simple Object Class with external functions
 
 In this part, we consider a time object which has three data attributes, namely: hour, minute, and second. The following Python script **lab7a.py** provides the blue print for building such a time object and also defines three external functions: format_time(), sum_times(), and valid_time(), which can manipulate the time object.
@@ -527,7 +523,7 @@ Type "help", "copyright", "credits" or "license" for more information.
   4. You will still notice that typing the time object name itself on an interactive python shell, the Python interpreter will just display the type of the object and its location in memory.
   5. Let's look at the next special object method **\_\_repr\_\_()**. We can also attached code to this function to tell the python interpreter what we would like the object to look like in an interactive shell.
 
-        - Associate the following code to the __repr__ method for the Time class:
+        - **Associate the following code to the \_\_repr\_\_** method for the Time class:
         
 ```python
 def __repr__(self):
