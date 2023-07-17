@@ -8,6 +8,11 @@ description: Landing Home Page for OPS435
 
 # Welcome to OPS435 - Open System Automation
 
+## Quick Links
+
+| [Weekly Schedule](./weekly-schedule.md) | [Course Outline](https://scs.senecac.on.ca/course/ops435) | [Assignment 1](/B-Assignments/assignment1.md) | [Assignment 2](/B-Assignments/assignment2.md) |
+| --- | --- | --- | --- |
+
 ## What This Course is About
 
 **This course is the fourth in a series of courses about Linux technologies**
