@@ -190,7 +190,7 @@ new_list = list(temporary_set)  # '''set()''' can make lists into sets. '''list(
 print(new_list)
 ```
 
-**Create a Python Script Demonstrating Comparing Sets**
+#### Create a Python Script Demonstrating Comparing Sets
 
 **Perform the Following Instructions**
 
@@ -262,7 +262,7 @@ python3 ./CheckLab4.py -f -v lab4a
 
   4. Before proceeding, make certain that you identify all errors in lab4a.py. When the checking script tells you everything is OK - proceed to the next step.
 
-**Create a Python Script Demonstrating Comparing Lists**
+#### Create a Python Script Demonstrating Comparing Lists
 
 **Perform the Following Instructions**
 
@@ -413,7 +413,7 @@ for value in dict_york.values():
     print(value)
 ```
 
-**Create a Python Script for Managing Dictionaries**
+#### Create a Python Script for Managing Dictionaries
 
 **Perform the Following Instructions**
 
