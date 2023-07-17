@@ -53,24 +53,24 @@ You need at least two Linux systems for this lab: your account on matrix.senecac
 - Idempotency - is an operation that, if applied twice to any value, gives the same result as if it were applied once.
 - Ad hoc commands - a simple one-off task:
 
-     - **shell commands**
+     + **shell commands**
 
-     - ansible remote_machine_id \[-i inventory\] \[--private-key id\_rsa\] \[-u remote_user\] -a 'date'
+         + ansible remote\_machine\_id \[-i inventory\] \[--private-key id\_rsa\] \[-u remote_user\] -a 'date'
 
 - Ansible modules - code that performs a particular task such as copy a file, installing a package, etc:
 
-     - **copy module**
+     + **copy module**
 
-     - ansible remote_machine_id -m copy -a "src=/ops435/ansible.txt dest=/tmp/ansible.txt"
+         + ansible remote\_machine\_id -m copy -a "src=/ops435/ansible.txt dest=/tmp/ansible.txt"
 
-     - **Package management**
+     + **Package management**
 
-     - ansible remote_machine_id -m yum -a "name=epel-release state=latest"
+         + ansible remote\_machine\_id -m yum -a "name=epel-release state=latest"
 
 - Playbooks - contains one or multiple plays, each play defines a set of repeatable tasks on one or more managed machines. Playbooks are written in YAML. Every play in the playbook is created with environment-specific parameters for the target machines:
 
-     - ansible-playbook remote_machine_id [-i inventory] setup_webserver.yaml
-     - ansible-playbook remote_machine_id [-i inventory] firstrun.yaml
+     - ansible-playbook remote\_machine\_id \[-i inventory\] setup_webserver.yaml
+     - ansible-playbook remote\_machine\_id \[-i inventory\] firstrun.yaml
 
 ### Part 1: The Ansible package installed on matrix
 
