@@ -292,7 +292,7 @@ Note that there is no password prompting if you complete "Part 3" successfully, 
 
 We say that running an ad-hoc fab command is very similar to the SSH command with shell commands attached at the end. Let's try both with privileged commands, like the "yum" command.
 
-**Run the "yum" command on remote machine with SSH**
+#### Run the "yum" command on remote machine with SSH
 
   1. By default, your VM doesn't have the "tree" rpm package installed. You can verify this with the following SSH command (remember to replace the port number with the correct value for your VM):
 
@@ -420,7 +420,7 @@ sudo: no tty present and no askpass program specified
 
   6. The above error indicated that you need a tty for the SSH session to prompt you for the sudo password. Please look up the ssh man page to find out the option which turn on a tty for the SSH session.
 
-**Run the privileged yum command on remote machine using ad-hoc fab command**
+#### Run the privileged yum command on remote machine using ad-hoc fab command
 
   1. Let's try the corresponding ad-hoc fab command on your VM:
 
@@ -446,7 +446,7 @@ On matrix, cd to your lab8 directory and create a simple fabric script file name
 
 ### Part 1: Non-privileged task example
 
-**Create non-privileged tasks: Getting the hostname of remote machines**
+#### Create non-privileged tasks: Getting the hostname of remote machines
 
   1. Add the following contents to the default fabric script called "fabfile.py" in your lab8 directory:
 
@@ -513,7 +513,7 @@ You should get used to the above messages from the **fab** command. It's a lot o
 
 ### Part 2: Privileged Tasks Examples
 
-**Create privileged tasks: install and remove rpm package on remote machines**
+#### Create privileged tasks: install and remove rpm package on remote machines
 
   1. Add the following two new functions to the end of the fabric script "fabfile.py" in your lab8 directory:
 
