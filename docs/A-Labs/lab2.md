@@ -73,7 +73,7 @@ python3 ./CheckLab2.py -f -v lab2a
 colour = input("Type in a colour and press enter: ")
 ```
 
-  8. When prompted, type the text: red and press ENTER. Did anything display? Why not?
+  8. When prompted, type the text: **red** and press ENTER. Did anything display? Why not?
   9. Add another line to your script:
 
 ```python
@@ -99,9 +99,9 @@ Now it's time to create a new script to prompt the user to enter data and displa
   2. Modify **lab2b.py** so that it prompts the user for both the user's **name** and **age**.
     
    - **Input / Output Requirements**
-      - The script should have a Shebang line
-      - The script should use an object called name
-      - The script should use an object called age
+      - The script should have a **Shebang line**
+      - The script should use an object called **name**
+      - The script should use an object called **age**
       - The script should prompt the user for "Name: "
       - The script should prompt the user for "Age: "
       - The script should store the values in the correctly spelled objects (case sensitivity counts)
@@ -161,15 +161,14 @@ print(len(sys.argv)) # tells us the number of command line arguments the user pr
 sys.exit() # will immediately end the running Python script, ignoring the remaining lines in the Python script
 ```
 
-   - Instead of using the **input()** function to prompt the user for data, we can use the list object **sys.argv** to capture the data items provided at the command line when a Python script is being executed. The list object **sys.argv**, when used within your Python 
-   
-        - script can store the following:
-        - sys.argv - stores all argument items as string objects
-        - sys.argv\[0\] - stores the name of the script/program
-        - sys.argv\[1\] - stores the first argument as a string object
-        - sys.argv\[2\] - stores the second argument as a string object
+   - Instead of using the **input()** function to prompt the user for data, we can use the list object **sys.argv** to capture the data items provided at the command line when a Python script is being executed. The list object **sys.argv**, when used within your Python script can store the following:
+        
+        - **sys.argv** - stores all argument items as string objects
+        - **sys.argv\[0\]** - stores the name of the script/program
+        - **sys.argv\[1\]** - stores the first argument as a string object
+        - **sys.argv\[2\]** - stores the second argument as a string object
         - etc...
-        - len(sys.argv) - gives the number of arguments
+        - **len(sys.argv)** - gives the number of arguments
 
   5. Create a new script called **~/ops435/lab2/showargs.py** and add the following content:
 
@@ -203,7 +202,7 @@ Now it's time to create a new script, but unlike prompting the user for data, th
   1. Make a copy of **lab2b.py** and call it **lab2c.py**.
   2. Modify **lab2c.py** to use the **sys.argv\[1\]** and **sys.argv\[2\]** list items instead of the **input()** function (used in your previous _lab2b.py_ script).
 
-   - Input / Output Requirements
+   - **Input / Output Requirements**
         
         - The script should have a **Shebang line**
         - The script should contain **import sys**
@@ -276,7 +275,8 @@ if True:
     print('This print is apart of the if statement')
 ```
 
-   - What happened when you ran this code? It is important to note a couple of things with the IF statement: When the expression in an IF statement **evaluates to True**, it runs the code that is indented underneath it. In this case, we can use the boolean value "True" to make this happen, or test to see if an expression is evaluated to true or false.
+   - What happened when you ran this code? It is important to note a couple of things with the IF statement:
+   - When the expression in an IF statement **evaluates to True**, it runs the code that is indented underneath it. In this case, we can use the boolean value "True" to make this happen, or test to see if an expression is evaluated to true or false.
    - However, if the expression in an IF statement evaluates to **False**, then it will not run the code indented underneath it. Any code not indented under the IF statement will perform normally as the main program and is NOT associated with the control flow statement.
    - Indentation means to start a line with spaces or tabs before your text. Using **indentation** will direct the script what code should be run as part of the IF statement and which code should be run regardless. Also, using indentation makes it easier for a programmer to identify Control Flow statements. From this point on, be VERY careful and consistent with indentation because it will affect how your code works.
 
@@ -335,7 +335,7 @@ Now it's time to create a new script. You will be modifying the previous Python 
   1. Make a copy of **lab2c.py** and call it **lab2d.py**.
   2. Modify **lab2d.py** by adding an if statement immediately BEFORE your print statements. This if statement should make sure that lab2d.py is using '2' additional arguments.
 
-   - Input / Output / Processing Requirements
+   - **Input / Output / Processing Requirements**
 
       - The script should have a **Shebang line**
       - The script should **import sys**
@@ -457,7 +457,7 @@ while count != 5:
 print('loop has ended')
 ```
 
-   - Sometimes you know in advance how many times a loop will execute, this is referred as a determinant loop, but often you don't. For example loops are extremely useful for error-checking in order to prevent incorrect data being accepted and causing the script not to perform correctly.
+   - Sometimes you know in advance how many times a loop will execute, this is referred as a determinant loop, but often you don't. For example loops are extremely useful for **error-checking** in order to prevent incorrect data being accepted and causing the script not to perform correctly.
 
   3. Here is an example of a loop used for error-checking. Run this code and type several incorrect passwords then the correct one to see what happens:
 
@@ -678,9 +678,9 @@ Please do not zip, or compress any file when submitting to blackboard. Double ch
   7. Write a short Python script which terminates the execution of the Python script if there are not exactly 3 arguments given at the command line.
   8. What is the purpose of an **if-elif-else** statement?
   9. Write a Python script to prompt the user for a course mark (no error checking is required... you can assume that the input will be a valid mark from 0 to 100). Use an if-elif-else statement to convert the mark to a letter grade. For simplicity, you don't have to worry about D+, C+, B+, or A+
-  10. Write a Python script to print the text I love Python twenty times (on a separate line).
+  10. Write a Python script to print the text **I love Python** twenty times (on a separate line).
   11. Identify and list the Python 3 keywords used in this lab.
-  12. Identify and list the Python 3 built-in functions used in this lab. (hint: the functions provided by the __builtins__ module)
+  12. Identify and list the Python 3 built-in functions used in this lab. (hint: the functions provided by the \_\_builtins\_\_ module)
   13. **INTERESTING CHALLENGE**: Perform a Netsearch to see how you can write Python code to perform error-checking (using a loop) to force a user to enter a number for the shoe size script (created in question #2). There are two things to consider:
 
       1. A number as opposed to a string
