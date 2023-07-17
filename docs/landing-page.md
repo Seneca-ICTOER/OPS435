@@ -33,18 +33,17 @@ In this course you will use a ssd(in a usb enclosure) with your own computers to
 ## Required Materials
 
 1. Devices:	[Software and Hardware for Online Learning](https://www.senecacollege.ca/student-services-and-support/technical-requirements-for-online-learning.html)
-2. **Solid State Drive (SSD) (Optional)	Minimum Capacity**: 100 GB
-3. **Account on matrix**
+2. **Account on matrix**
     
       - matrix.senecacollege.ca
       - SSH access only after connected to Seneca VPN
 
-4. **Seneca VPN Client**: [Student VPN Client](https://inside.senecacollege.ca/its/services/vpn/)
-5. **Think Python** by Allen B. Downey (Available in print and [online](http://greenteapress.com/wp/think-python-2e/))
+3. **Seneca VPN Client**: [Student VPN Client](https://inside.senecacollege.ca/its/services/vpn/)
+4. **Think Python** by Allen B. Downey (Available in print and [online](http://greenteapress.com/wp/think-python-2e/))
 
 ![Think Python Book](https://wiki.cdot.senecacollege.ca/w/imgs/Thinkpython.png "Image of Think Python Book cover")
 
-6. **Automate the boring Stuff with Python** by AL Sweigart (Available in print and [online](https://automatetheboringstuff.com/))
+5. **Automate the boring Stuff with Python** by AL Sweigart (Available in print and [online](https://automatetheboringstuff.com/))
 
 ![Automate With Python Book](https://wiki.cdot.senecacollege.ca/w/imgs/Automatewithpython.png "Image of Automate With Python Book cover")
 
