@@ -132,9 +132,9 @@ Your python script must follow the following coding guide:
 
 There are three types of comments in programming and your assignment should contain each:
 
-The top-level docstring should contain information about what your script does. This is included in the duim.py file. **Please complete the top-level docstring**.
-Use Python's function docstrings to document how each of the functions work. The docstring should describe what each function does.
-Your script should also include in-line comments to explain anything that isn't immediately obvious to a beginner programmer. For these comments, it's always better to explain _why_ your code is doing what it does rather than _what_ it's doing. Also: **It is expected that you will be able to explain how each part of your code works in detail.**
+- The top-level docstring should contain information about what your script does. This is included in the duim.py file. **Please complete the top-level docstring**.
+- Use Python's function docstrings to document how each of the functions work. The docstring should describe what each function does.
+- Your script should also include in-line comments to explain anything that isn't immediately obvious to a beginner programmer. For these comments, it's always better to explain _why_ your code is doing what it does rather than _what_ it's doing. Also: **It is expected that you will be able to explain how each part of your code works in detail.**
 
 **Authorship Declaration**
 
